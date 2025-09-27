@@ -1,0 +1,48 @@
+📅 Week 1 – Day 1 Progress
+✅ Tools Used
+
+iVerilog → To compile and simulate the mux design.
+
+GTKWave → To visualize and analyze signal waveforms from the simulation.
+
+Yosys → To synthesize the mux RTL code and generate its gate-level netlist.
+
+✅ Design Under Test
+
+File: good_mux.v
+
+Description: Implements a basic multiplexer.
+
+Purpose: Used as a common design to learn simulation, waveform analysis, and synthesis flow.
+
+
+📝 Key Learnings
+
+Simulation with iVerilog
+
+Compiled good_mux.v with good_mux_tb.v.
+
+Generated .vcd files for waveform viewing.
+
+Waveform Analysis with GTKWave
+
+
+Opened .vcd files in GTKWave.
+
+Verified functionality of mux using timing diagrams.
+
+Synthesis with Yosys
+
+Read RTL code into Yosys.
+
+Synthesized the mux design and generated gate-level netlist.
+
+Explored logic mapping and netlist structure.
+
+📌 Next Steps
+
+Perform deeper synthesis experiments with Yosys.
+
+Analyze larger RTL examples (counters, adders, FSMs).
+
+Compare RTL vs synthesized netlist behavior.
